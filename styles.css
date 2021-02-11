@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family:"Roboto Slab", sans-serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color:rgb(205, 205, 255);
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background:white;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,8 +43,9 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color:rgb(205, 205, 255);
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/wave.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,8 +68,8 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 220px;
+  height: 250px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
@@ -78,15 +79,15 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color:rgb(205, 205, 255);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color:white;
+  color:rgb(205, 205, 255);
 }
 .card {
   margin: 30px;
@@ -110,14 +111,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background:rgb(205, 205, 255);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background:rgb(205, 205, 255);
 }
 
 footer {
@@ -201,6 +202,13 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
 }
